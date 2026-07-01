@@ -4,7 +4,7 @@ Welcome!
 
 Hi, I'm **Emmanuel Ejima** — a Chemical Engineering graduate passionate about **Data Science, Machine Learning, Artificial Intelligence, and Renewable Energy**. This repository showcases my end-to-end data science projects, demonstrating skills in data analysis, visualization, predictive modeling, and machine learning.
 
----
+
 
 ## 📂 Portfolio Projects
 
@@ -33,7 +33,7 @@ Python • Pandas • NumPy • Matplotlib • Seaborn
 
 [Titanic_Survival_EDA.ipynb](./projects/Titanic-Survival-EDA/Titanic_Survival_EDA.ipynb)
 
----
+
 
 ### 🛒 Supermarket Sales Prediction
 
@@ -60,7 +60,7 @@ Python • Pandas • NumPy • Scikit-learn • Matplotlib
 
 [Supermarket_Sales_Prediction.ipynb](./projects/Supermarket-Sales-Prediction/Supermarket_Sales_Prediction.ipynb)
 
----
+
 
 ### ☀️ Solar Power Generation Prediction
 
@@ -87,7 +87,7 @@ Python • Pandas • Scikit-learn • Matplotlib
 
 [Solar_Prediction.ipynb](./projects/Solar-Power-Prediction/Solar_Prediction.ipynb)
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -102,7 +102,23 @@ Python • Pandas • Scikit-learn • Matplotlib
 - Git
 - GitHub
 
----
+
+
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio.git
+```
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ## 🎯 Currently Learning
 
@@ -112,7 +128,7 @@ Python • Pandas • Scikit-learn • Matplotlib
 - Azure Machine Learning
 - Git & GitHub Best Practices
 
----
+
 
 ## 👨‍💻 About Me
 
@@ -125,7 +141,7 @@ I'm a Chemical Engineering graduate with hands-on experience in:
 
 My goal is to build AI-driven and data-driven solutions that solve real-world engineering and business problems.
 
----
+
 
 ## 📫 Connect With Me
 
@@ -133,7 +149,7 @@ My goal is to build AI-driven and data-driven solutions that solve real-world en
 - **GitHub:** https://github.com/EmmanuelEjima
 - **Email:** emmanuelejima12@gmail.com
 
----
+
 
 ## ⭐ Support
 
