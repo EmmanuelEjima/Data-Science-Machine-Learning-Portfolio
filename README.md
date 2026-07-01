@@ -1,26 +1,87 @@
-# Supermarket Sales Prediction
+# Data Science & Machine Learning Portfolio
 
-This project builds a machine learning model to predict total sales per transaction using a public supermarket sales dataset. The goal is to support better inventory management, staffing decisions, and overall business strategy.
+Welcome!
 
-## Dataset
-The dataset contains 1,000 supermarket transactions with customer, product, pricing, and payment information. It includes both categorical and numerical features.
+I'm Emmanuel Ejima, a Chemical Engineering graduate passionate about Data Science, Machine Learning, Renewable Energy, and AI.
 
-## Methodology
-- Data cleaning and preprocessing
-- Exploratory data analysis (EDA)
-- Feature engineering and encoding
-- Regression modeling (Linear Regression, Decision Tree, Random Forest)
-- Model evaluation using MAE, RMSE, and R² score
+This repository showcases my end-to-end data science projects, covering:
 
-## Results
-After removing features that caused data leakage, tree-based models significantly outperformed linear regression. The Random Forest Regressor achieved the best performance with the highest R² score and lowest error metrics.
+- Exploratory Data Analysis (EDA)
+- Data Cleaning
+- Data Visualization
+- Machine Learning
+- Predictive Modeling
 
-## Tools Used
+
+# Projects
+
+# 🚢 Titanic Passenger Survival Analysis
+
+**Objective**
+
+Perform a comprehensive Exploratory Data Analysis (EDA) to identify the factors influencing passenger survival aboard the Titanic.
+
+**Skills**
 - Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-## Business Insights
-The model highlights the importance of product type, unit price, quantity purchased, and customer behavior in driving sales. These insights can help supermarkets improve demand forecasting and operational planning.
+➡️ View Project
+
+---
+
+# 🛒 Supermarket Sales Prediction
+
+**Objective**
+
+Build a regression model to predict supermarket sales and generate business insights.
+
+**Skills**
+
+- Data Cleaning
+- Feature Engineering
+- Regression
+- Scikit-Learn
+
+➡️ View Project
+
+
+# ☀️ Solar Power Generation Prediction
+
+**Objective**
+
+Develop a machine learning model for predicting solar power generation to support renewable energy planning.
+
+**Skills**
+
+- Python
+- Regression
+- Data Analysis
+- Renewable Energy
+
+➡️ View Project
+
+
+ # Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+- Google Colab
+- Azure-Ml
+- Git
+- GitHub
+
+ # About Me
+
+Chemical Engineering graduate with practical experience in Data Science, Machine Learning, and Renewable Energy Systems.
+
+Connect with me:
+
+LinkedIn:linkedin.com/in/emmanuel-ejima
+Email: emmanuelejima12@gmail.com
