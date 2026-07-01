@@ -1,32 +1,35 @@
 ## 📂 Projects
 
-### 🚢 Titanic Passenger Survival Analysis
+### 🚢 Titanic Survival Analysis
 
-**Objective:** Perform a comprehensive Exploratory Data Analysis (EDA) to identify the factors influencing passenger survival.
+**Objective:** Perform Exploratory Data Analysis (EDA) to identify factors affecting passenger survival.
 
-**Technologies:** Python, Pandas, NumPy, Matplotlib, Seaborn
+📂 **Project Folder:**  
+[Open Project](./projects/Titanic-Survival-EDA/)
 
-📁 **Project Folder:**  
-[projects/Titanic-Survival-EDA](./projects/Titanic-Survival-EDA)
+📓 **Notebook:**  
+[Titanic_Survival_EDA.ipynb](./projects/Titanic-Survival-EDA/Titanic_Survival_EDA.ipynb)
 
 ---
 
 ### 🛒 Supermarket Sales Prediction
 
-**Objective:** Build a machine learning model to predict supermarket sales and generate business insights.
+**Objective:** Build a regression model to predict supermarket sales.
 
-**Technologies:** Python, Pandas, Scikit-learn, Regression
+📂 **Project Folder:**  
+[Open Project](./projects/Supermarket-Sales-Prediction/)
 
-📁 **Project Folder:**  
-[projects/Supermarket-Sales-Prediction](./projects/Supermarket-Sales-Prediction)
+📓 **Notebook:**  
+[Supermarket_Sales_Prediction.ipynb](./projects/Supermarket-Sales-Prediction/Supermarket_Sales_Prediction.ipynb)
 
 ---
 
 ### ☀️ Solar Power Prediction
 
-**Objective:** Predict solar power generation using machine learning for renewable energy applications.
+**Objective:** Predict solar power generation using machine learning.
 
-**Technologies:** Python, Pandas, Scikit-learn
+📂 **Project Folder:**  
+[Open Project](./projects/Solar-Power-Prediction/)
 
-📁 **Project Folder:**  
-[projects/Solar-Power-Prediction](./projects/Solar-Power-Prediction)
+📓 **Notebook:**  
+[Solar_Prediction.ipynb](./projects/Solar-Power-Prediction/Solar_Prediction.ipynb)
