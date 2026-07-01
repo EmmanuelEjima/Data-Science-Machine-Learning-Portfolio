@@ -83,5 +83,6 @@ Chemical Engineering graduate with practical experience in Data Science, Machine
 
 Connect with me:
 
-LinkedIn:linkedin.com/in/emmanuel-ejima
+LinkedIn: linkedin.com/in/emmanuel-ejima
+
 Email: emmanuelejima12@gmail.com
