@@ -7,7 +7,7 @@
 **Technologies:** Python, Pandas, NumPy, Matplotlib, Seaborn
 
 📁 **Project Folder:**  
-Titanic-Survival-EDA](./projects/Titanic-Survival-EDA)
+[projects/Titanic-Survival-EDA](./projects/Titanic-Survival-EDA)
 
 ---
 
@@ -18,7 +18,7 @@ Titanic-Survival-EDA](./projects/Titanic-Survival-EDA)
 **Technologies:** Python, Pandas, Scikit-learn, Regression
 
 📁 **Project Folder:**  
-Supermarket-Sales-Prediction](./projects/Supermarket-Sales-Prediction)
+[projects/Supermarket-Sales-Prediction](./projects/Supermarket-Sales-Prediction)
 
 ---
 
@@ -29,4 +29,4 @@ Supermarket-Sales-Prediction](./projects/Supermarket-Sales-Prediction)
 **Technologies:** Python, Pandas, Scikit-learn
 
 📁 **Project Folder:**  
-Solar-Power-Prediction](./projects/Solar-Power-Prediction)
+[projects/Solar-Power-Prediction](./projects/Solar-Power-Prediction)
