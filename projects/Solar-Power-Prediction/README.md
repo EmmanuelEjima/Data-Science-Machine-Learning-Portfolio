@@ -1,5 +1,7 @@
 # ☀️ Solar Power Prediction
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio/blob/main/projects/Solar-Power-Prediction/Solar_Prediction.ipynb)
+
 ## Overview
 
 This project applies machine learning techniques to predict solar power generation using environmental and weather-related data.
