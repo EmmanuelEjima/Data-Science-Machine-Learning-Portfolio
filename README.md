@@ -1,88 +1,140 @@
-# Data Science & Machine Learning Portfolio
+# 🚀 Data Science & Machine Learning Portfolio
 
 Welcome!
 
-I'm Emmanuel Ejima, a Chemical Engineering graduate passionate about Data Science, Machine Learning, Renewable Energy, and AI.
+Hi, I'm **Emmanuel Ejima** — a Chemical Engineering graduate passionate about **Data Science, Machine Learning, Artificial Intelligence, and Renewable Energy**. This repository showcases my end-to-end data science projects, demonstrating skills in data analysis, visualization, predictive modeling, and machine learning.
 
-This repository showcases my end-to-end data science projects, covering:
+---
+
+## 📂 Portfolio Projects
+
+### 🚢 Titanic Survival Analysis
+
+**Objective**
+
+Perform a comprehensive Exploratory Data Analysis (EDA) to uncover the factors influencing passenger survival aboard the Titanic.
+
+**Key Skills**
 
 - Exploratory Data Analysis (EDA)
 - Data Cleaning
 - Data Visualization
-- Machine Learning
-- Predictive Modeling
+- Statistical Analysis
 
+**Technologies**
 
-# Projects
+Python • Pandas • NumPy • Matplotlib • Seaborn
 
-# 🚢 Titanic Passenger Survival Analysis
+📁 **Project Folder**
 
-**Objective**
+[View Project](./projects/Titanic-Survival-EDA/)
 
-Perform a comprehensive Exploratory Data Analysis (EDA) to identify the factors influencing passenger survival aboard the Titanic.
+📓 **Notebook**
 
-**Skills**
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
-➡️ View Project
+[Titanic_Survival_EDA.ipynb](./projects/Titanic-Survival-EDA/Titanic_Survival_EDA.ipynb)
 
 ---
 
-# 🛒 Supermarket Sales Prediction
+### 🛒 Supermarket Sales Prediction
 
 **Objective**
 
-Build a regression model to predict supermarket sales and generate business insights.
+Develop a machine learning regression model to predict supermarket sales and generate actionable business insights.
 
-**Skills**
+**Key Skills**
 
 - Data Cleaning
 - Feature Engineering
-- Regression
-- Scikit-Learn
+- Regression Modeling
+- Model Evaluation
 
-➡️ View Project
+**Technologies**
 
+Python • Pandas • NumPy • Scikit-learn • Matplotlib
 
-# ☀️ Solar Power Generation Prediction
+📁 **Project Folder**
+
+[View Project](./projects/Supermarket-Sales-Prediction/)
+
+📓 **Notebook**
+
+[Supermarket_Sales_Prediction.ipynb](./projects/Supermarket-Sales-Prediction/Supermarket_Sales_Prediction.ipynb)
+
+---
+
+### ☀️ Solar Power Generation Prediction
 
 **Objective**
 
-Develop a machine learning model for predicting solar power generation to support renewable energy planning.
+Build a machine learning model to predict solar power generation for renewable energy planning and optimization.
 
-**Skills**
+**Key Skills**
 
-- Python
-- Regression
 - Data Analysis
-- Renewable Energy
+- Regression
+- Renewable Energy Analytics
+- Predictive Modeling
 
-➡️ View Project
+**Technologies**
 
+Python • Pandas • Scikit-learn • Matplotlib
 
- # Tech Stack
+📁 **Project Folder**
+
+[View Project](./projects/Solar-Power-Prediction/)
+
+📓 **Notebook**
+
+[Solar_Prediction.ipynb](./projects/Solar-Power-Prediction/Solar_Prediction.ipynb)
+
+---
+
+## 🛠️ Tech Stack
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-Learn
+- Scikit-learn
 - Google Colab
-- Azure-Ml
+- Azure Machine Learning
 - Git
 - GitHub
 
- # About Me
+---
 
-Chemical Engineering graduate with practical experience in Data Science, Machine Learning, and Renewable Energy Systems.
+## 🎯 Currently Learning
 
-Connect with me:
+- Machine Learning
+- Data Science
+- AI Applications
+- Azure Machine Learning
+- Git & GitHub Best Practices
 
-LinkedIn: linkedin.com/in/emmanuel-ejima
+---
 
-Email: emmanuelejima12@gmail.com
+## 👨‍💻 About Me
+
+I'm a Chemical Engineering graduate with hands-on experience in:
+
+- Data Science
+- Machine Learning
+- Renewable Energy Systems
+- Solar Energy Solutions
+
+My goal is to build AI-driven and data-driven solutions that solve real-world engineering and business problems.
+
+---
+
+## 📫 Connect With Me
+
+- **LinkedIn:** https://linkedin.com/in/emmanuel-ejima
+- **GitHub:** https://github.com/EmmanuelEjima
+- **Email:** emmanuelejima12@gmail.com
+
+---
+
+## ⭐ Support
+
+If you find this portfolio helpful, consider giving this repository a ⭐.
