@@ -1,5 +1,7 @@
 # 🛒 Supermarket Sales Prediction
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio/blob/main/projects/Supermarket-Sales-Prediction/Supermarket_Sales_Prediction.ipynb)
+
 ## Overview
 
 This project develops a machine learning regression model to predict supermarket sales using historical transaction data.
