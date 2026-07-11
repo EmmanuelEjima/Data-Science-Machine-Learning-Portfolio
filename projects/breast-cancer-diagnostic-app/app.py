@@ -2,13 +2,23 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 
 st.set_page_config(page_title='Breast Cancer Diagnostics', layout='wide')
 st.title('⚕  Breast Cancer Diagnostic Assistant')
 
+# --- RUNTIME DIAGNOSTICS ---
+with st.expander("ᄅ Debug: File System Status"):
+    st.write(f"Current Path: {os.getcwd()}")
+    st.write("Folder Contents:", os.listdir('.'))
+    if os.path.exists('models'):
+        st.write("✅ 'models' folder exists")
+        st.write("Models folder contents:", os.listdir('models'))
+    else:
+        st.error("❌ 'models' folder NOT found")
+
 @st.cache_resource
 def load_assets():
-    # Streamlit Cloud expects assets relative to app.py
     model = joblib.load('models/breast_cancer_model.pkl')
     scaler = joblib.load('models/scaler.pkl')
     return model, scaler
@@ -33,18 +43,13 @@ feature_names = [
 
 st.markdown("### Enter Cell Measurements")
 col1, col2, col3 = st.columns(3)
-input_data = {}
-
-for i, feat in enumerate(feature_names):
-    with [col1, col2, col3][i % 3]:
-        input_data[feat] = st.number_input(feat.replace(' ', '_').title(), value=0.0, format='%.4f')
+input_data = {feat: st.number_input(feat.replace(' ', '_').title(), value=0.0, format='%.4f') for feat in feature_names}
 
 if st.button('Run Diagnostic Analysis', use_container_width=True):
     input_df = pd.DataFrame([input_data])
     scaled_features = scaler.transform(input_df)
     prediction = model.predict(scaled_features)
     probability = model.predict_proba(scaled_features)
-
     st.divider()
     if prediction[0] == 0:
         st.error(f'### Result: Malignant (Confidence: {probability[0][0]:.2%})')
