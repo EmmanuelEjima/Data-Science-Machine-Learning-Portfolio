@@ -154,3 +154,17 @@ My goal is to build AI-driven and data-driven solutions that solve real-world en
 ## ⭐ Support
 
 If you find this portfolio helpful, consider giving this repository a ⭐.
+
+
+## 🚀 Featured Project: Breast Cancer Diagnostic Assistant
+
+This repository includes a production-ready diagnostic tool powered by Machine Learning.
+
+### How to view the app:
+- **Live Demo:** [Deploy this on Streamlit Cloud](https://share.streamlit.io/)
+- **App Path:** `projects/breast-cancer-diagnostic-app/app.py`
+
+### Tech Stack:
+- **Model:** Logistic Regression (Scikit-Learn)
+- **Deployment:** Streamlit Community Cloud
+- **Interface:** Interactive Sidebar with real-time confidence scoring.
