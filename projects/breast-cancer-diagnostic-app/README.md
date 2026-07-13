@@ -1,61 +1,82 @@
 # ⚕️ Breast Cancer Diagnostic Assistant
 
-An end-to-end Machine Learning web application that predicts whether a breast tumor is **Malignant** or **Benign** using the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset. The project demonstrates the complete machine learning lifecycle, from data preprocessing and model training to cloud deployment with **Streamlit Community Cloud**.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio/blob/main/projects/breast-cancer-diagnostic-app/Breast%20Cancer%20Detection%20Model.ipynb)
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://breast-cancer-diagnostic-assistant.streamlit.app/)
+
+## 📷 Application Preview
+
+<p align="center">
+  <img src="images/app-preview.jpg" alt="Breast Cancer Diagnostic Assistant" width="900">
+</p>
+
+An end-to-end Machine Learning web application that predicts whether a breast tumor is **Malignant** or **Benign** using the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset. The project demonstrates the complete machine learning lifecycle, from data preprocessing and model training to cloud deployment using **Streamlit Community Cloud**.
+
+---
 
 ## 🌐 Live Demo
 
-🚀 **Streamlit Application**  
+🚀 **Streamlit Application**
+
 https://breast-cancer-diagnostic-assistant.streamlit.app/
 
-📓 **Google Colab Notebook**  
-https://colab.research.google.com/drive/1NrM_aeOKVae3eZfqY3c0B64S1PF4pckD?usp=sharing
+📓 **Interactive Notebook**
 
+Click the **Open in Colab** badge above to explore the complete notebook.
 
+---
 
 ## 📌 Project Overview
 
-This project implements a standardized machine learning pipeline for breast cancer diagnosis. It allows users to input **30 clinical features** extracted from Fine Needle Aspirate (FNA) images of breast masses and instantly predicts whether the tumor is **Malignant** or **Benign**.
+This project implements a standardized Machine Learning pipeline for breast cancer diagnosis. Users can enter **30 clinical features** extracted from Fine Needle Aspirate (FNA) images of breast masses, and the application predicts whether the tumor is **Malignant** or **Benign**.
 
-The application demonstrates best practices in machine learning model development, reproducibility, and deployment.
+The project demonstrates best practices in:
 
+- Data preprocessing
+- Feature engineering
+- Model evaluation
+- Model serialization
+- Web application deployment
+- Reproducible machine learning workflows
 
+---
 
 ## ✨ Features
 
 - Interactive Streamlit web application
-- Complete 30-feature clinical input form
+- Complete 30-feature clinical input interface
 - Real-time prediction (Malignant or Benign)
 - Logistic Regression classifier
 - StandardScaler preprocessing pipeline
 - Serialized model using Joblib
-- Cloud deployment with Streamlit Community Cloud
-- Clean and responsive user interface
+- Production-ready deployment
+- Responsive user interface
 
-
+---
 
 ## 📊 Machine Learning Workflow
 
 - Data Loading
-- Data Cleaning
 - Exploratory Data Analysis (EDA)
+- Data Preprocessing
 - Feature Scaling using StandardScaler
 - Model Training
 - Cross Validation
 - Model Evaluation
-- Model Serialization (.pkl)
+- Model Serialization (`.pkl`)
 - Streamlit Deployment
 
-
+---
 
 ## 📈 Model Performance
 
 | Metric | Value |
 |---------|-------|
-| Algorithm | Logistic Regression |
-| Dataset | Wisconsin Diagnostic Breast Cancer (WDBC) |
-| Cross-Validation Accuracy | **≈98.1%** |
-| Framework | Scikit-learn |
+| **Algorithm** | Logistic Regression |
+| **Dataset** | Wisconsin Diagnostic Breast Cancer (WDBC) |
+| **Cross-Validation Accuracy** | **≈98.1%** |
+| **Framework** | Scikit-learn |
 
+---
 
 ## 🛠️ Technologies Used
 
@@ -69,13 +90,14 @@ The application demonstrates best practices in machine learning model developmen
 - Git
 - GitHub
 
-
+---
 
 ## 📂 Project Structure
 
 ```text
 breast-cancer-diagnostic-app/
 │
+├── Breast Cancer Detection Model.ipynb
 ├── app.py
 ├── README.md
 ├── requirements.txt
@@ -84,61 +106,64 @@ breast-cancer-diagnostic-app/
     └── scaler.pkl
 ```
 
-
+---
 
 ## ▶️ Run the Project Locally
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio.git
 ```
 
-Navigate to the project directory
+### Navigate to the project folder
 
 ```bash
 cd projects/breast-cancer-diagnostic-app
 ```
 
-Install the required packages
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the Streamlit application
+### Launch the application
 
 ```bash
 streamlit run app.py
 ```
 
-
+---
 
 ## 📚 Dataset
 
-**Wisconsin Diagnostic Breast Cancer (WDBC)**
+The model was trained using the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset available through Scikit-learn.
 
-The dataset contains measurements computed from digitized images of Fine Needle Aspirate (FNA) of breast masses. Each observation includes 30 numerical features describing cell nuclei characteristics and is classified as either:
+Each observation contains **30 numerical features** computed from digitized images of Fine Needle Aspirate (FNA) of breast masses and is classified as either:
 
-- **Malignant (Cancerous)**
-- **Benign (Non-cancerous)**
+- 🔴 **Malignant (Cancerous)**
+- 🟢 **Benign (Non-cancerous)**
 
-
+---
 
 ## 📌 Future Improvements
 
-- Display prediction probability/confidence score
-- Interactive data visualizations
-- Feature importance analysis
-- Additional machine learning model comparison
-- Model explainability using SHAP
+- Prediction probability/confidence score
+- Interactive visual analytics
+- Feature importance visualization
+- Multiple machine learning model comparison
+- Explainable AI (SHAP/LIME)
+- Docker containerization
+- CI/CD deployment pipeline
 
+---
 
 ## ⚠️ Disclaimer
 
-This application is intended solely for educational, research, and portfolio purposes. It is **not a medical diagnostic tool** and should not replace professional medical advice or clinical decision-making.
+This application is intended for **educational, research, and portfolio purposes only**. It is **not a medical diagnostic system** and should not replace professional medical advice or clinical decision-making.
 
-
+---
 
 ## 👨‍💻 Author
 
@@ -147,8 +172,8 @@ This application is intended solely for educational, research, and portfolio pur
 Chemical Engineer | Data Science & Machine Learning Enthusiast | Renewable Energy Engineer
 
 - **GitHub:** https://github.com/EmmanuelEjima
-- **LinkedIn:** 
+- **LinkedIn:** https://linkedin.com/in/emmanuel-ejima
 
+---
 
-
-⭐ If you found this project useful, consider giving it a **Star** on GitHub.
+⭐ **If you found this project useful, consider giving it a Star on GitHub!**
