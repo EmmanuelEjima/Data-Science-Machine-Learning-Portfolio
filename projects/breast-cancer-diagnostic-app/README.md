@@ -11,19 +11,6 @@
 
 An end-to-end Machine Learning web application that predicts whether a breast tumor is **Malignant** or **Benign** using the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset. The project demonstrates the complete machine learning lifecycle, from data preprocessing and model training to cloud deployment using **Streamlit Community Cloud**.
 
----
-
-## 🌐 Live Demo
-
-🚀 **Streamlit Application**
-
-https://breast-cancer-diagnostic-assistant.streamlit.app/
-
-📓 **Interactive Notebook**
-
-Click the **Open in Colab** badge above to explore the complete notebook.
-
----
 
 ## 📌 Project Overview
 
