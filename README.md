@@ -2,11 +2,39 @@
 
 Welcome!
 
-Hi, I'm **Emmanuel Ejima** — a Chemical Engineering graduate passionate about **Data Science, Machine Learning, Artificial Intelligence, and Renewable Energy**. This repository showcases my end-to-end data science projects, demonstrating skills in data analysis, visualization, predictive modeling, and machine learning.
+Hi, I'm **Emmanuel Ejima**, a Chemical Engineering graduate passionate about **Data Science, Machine Learning, Artificial Intelligence, and Renewable Energy**.
+
+This repository showcases my end-to-end data science and machine learning projects, demonstrating skills in data analysis, visualization, predictive modeling, deployment, and reproducible machine learning workflows.
+
+
+# 📂 Portfolio Projects
+
+
+# ⭐ Featured Project: Breast Cancer Diagnostic Assistant
+
+## 📷 Application Preview
+
+<p align="center">
+  <img src="projects/breast-cancer-diagnostic-app/images/app-preview.jpg"
+       alt="Breast Cancer Diagnostic Assistant"
+       width="900">
+</p>
+
+An end-to-end Machine Learning web application that predicts whether a breast tumor is **Malignant** or **Benign** using the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset.
+
+### 🔗 Quick Links
+
+- 🚀 **Live Demo:** https://breast-cancer-diagnostic-assistant.streamlit.app/
+- 📂 **Project Folder:** https://github.com/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio/tree/main/projects/breast-cancer-diagnostic-app
+- 📓 **Open in Colab:** https://colab.research.google.com/github/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio/blob/main/projects/breast-cancer-diagnostic-app/Breast%20Cancer%20Detection%20Model.ipynb
+
+### Technologies
+
+Python • Streamlit • Scikit-learn • Pandas • NumPy • Joblib • Google Colab • Git • GitHub
 
 
 
-## 📂 Portfolio Projects
+
 
 ### 🚢 Titanic Survival Analysis
 
@@ -156,15 +184,3 @@ My goal is to build AI-driven and data-driven solutions that solve real-world en
 If you find this portfolio helpful, consider giving this repository a ⭐.
 
 
-## 🚀 Featured Project: Breast Cancer Diagnostic Assistant
-
-This repository includes a production-ready diagnostic tool powered by Machine Learning.
-
-### How to view the app:
-- **Live Demo:** [Deploy this on Streamlit Cloud](https://share.streamlit.io/)
-- **App Path:** `projects/breast-cancer-diagnostic-app/app.py`
-
-### Tech Stack:
-- **Model:** Logistic Regression (Scikit-Learn)
-- **Deployment:** Streamlit Community Cloud
-- **Interface:** Interactive Sidebar with real-time confidence scoring.
