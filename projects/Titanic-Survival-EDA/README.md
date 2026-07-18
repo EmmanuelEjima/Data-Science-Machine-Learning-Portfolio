@@ -16,4 +16,4 @@ Perform Exploratory Data Analysis (EDA) on the Titanic dataset to identify the f
 
 ## Notebook
 
-Titanic_Survival_EDA.ipynb
+Titanic_Survival_EDA_Analysis.ipynb
