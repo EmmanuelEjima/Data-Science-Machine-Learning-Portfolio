@@ -1,6 +1,6 @@
 # Titanic Survival Analysis
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio/blob/main/projects/Titanic-Survival-EDA/Titanic_Survival_EDA.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EmmanuelEjima/Data-Science-Machine-Learning-Portfolio/blob/main/projects/Titanic-Survival-EDA/Titanic_Survival_EDA_Analysis.ipynb)
 
 ## Objective
 
